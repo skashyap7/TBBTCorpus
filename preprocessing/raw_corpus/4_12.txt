@@ -1,0 +1,257 @@
+
+				Scene: The university cafeteria. Howard is on the phone.
+Howard: Ma, Ma, calm down. Listen to me. I know it says click with the mouse, but on a laptop, the trackpad is the mouse. Now, put your finger on it. Doesn’t matter which finger. Good choice. Now move it down to your e-mail icon. Yeah, the little envelope. What do you mean, what does it look like? It looks like an envelope! Fine, you don’t like the computer, don’t use it! Sure, we can exchange it for a salad spinner. Good-bye!
+Raj: That’s a Hanukkah present you’re regretting, huh?
+Sheldon: I won’t say that all senior citizens who can’t master technology should be publicly flogged, but if we made an example of one or two, it might give the others incentive to try harder.
+Leonard: I had a great idea. You know how we’re always having to stop and solve differential equations, like when you’re doing Fourier analysis, or using the Schrodinger equation?
+Sheldon: Howard doesn’t. He’s only an engineer.
+Leonard: I was thinking, we could write a little app that would use handwriting recognition, and then run it through a symbolic evaluation engine. You just use your smartphone, take a picture of the equation and bam!
+Raj: You know what’s a great app? The one that makes fart noises.
+Sheldon: You know, Leonard, that’s actually a valid idea. Very good.
+Leonard: Can you say that and not make it sound like I’m a cat who learned how to use the toilet?
+Sheldon: No. The two achievements are equally surprising and equally admirable, though if pressed, I’d have to give a slight edge to the cat. I’ll save you the pain and nervousness of waiting for the answer. I agree to be part of your project. Congratulations.
+Leonard: Oh, yay for me. What about you guys? I can’t promise anything, but people do make money off stuff like this.
+Howard: A few extra bucks would be nice. I could finally move out of my mother’s house.
+Raj: Where would you go?
+Howard: I always dreamed about building a little place of my own over the garage.
+Raj: You know, if I made more money, I could take time off from work and give pretty girls submarine rides.
+Howard: What’s that? Some weird sex thing?
+Raj: No. You take pretty girls underwater in your private submarine, and you show them fish. Why does everything have to be dirty with you?
+Leonard: I was thinking we could work on this at night, and then maybe in a couple of weeks, we’ll have ourselves an app to sell.
+Howard: Sounds like we’re in business.
+Raj: I think we should take a picture to capture this moment.
+Leonard: Yeah.
+Sheldon: Oh!
+Raj (pressing button on camera phone. Camera makes a fart noise): Was that the best 99 cents I ever spent, or what?
+Credits sequence.
+ 
+Scene: The apartment. 
+Leonard: I checked the App Store. No one is doing handwriting-recognition differential equation solving.
+Sheldon: Oh, dear Lord, shush.
+Leonard: What?
+Sheldon: You have so few good ideas, Leonard. And you’re just going to spill the beans in front of an outsider?
+Penny: Who, me?
+Howard: Sheldon, I don’t think Penny cares about handwriting-recognition based differential…
+Sheldon (singing): The stars at night are big and bright, deep in the heart of Texas.
+Leonard: She’s not going to steal our idea.
+Penny: What idea?
+Leonard: We’re gonna write an application…
+Sheldon (singing): The prairie sky is wide and high, deep in the heart…
+Penny: Okay, stop, stop!
+Sheldon: Of Texas.
+Penny: Whatever your secret is, I’m sure it’s boring, so I’m not interested.
+Leonard: It’s not boring at all. You see, in higher order mathematics, there are certain sets of equations that…
+Penny: Bored.
+Leonard: Satisfied?
+Sheldon: Hardly. Consider this unlikely but very plausible scenario. A young woman alone in the big city. Her ridiculous dream of becoming an actress lies shattered about her.
+Penny: Hey, wait a minute.
+Howard: Well, hang on. Let’s see where he’s going.
+Sheldon: Then it hits her. How is she going to survive? I mean, she has no prospects, no marketable skills. And then one day, she meets a group of geniuses and their friend Howard.
+Howard: Hey, I…
+Penny: Hang on. Let’s see where he’s going.
+Sheldon: She befriends them, and then lies in wait until they reveal a marketable idea, which she steals and sells to the highest bidder.
+Leonard: That is ridiculous.
+Sheldon: Oh, is it? Well let’s see you come up with an explanation as to why this woman hangs out with us all the time.
+Penny: Oh, great. You know what? I’ve already mooched dinner off you guys. I don’t need to listen to this.
+Howard: There’s your answer, free food.
+Sheldon: All right, I’ve taken the liberty of drafting these workflow charts which outline our various duties and the path we will follow as we develop our ground-breaking new app.
+Raj: Hey, why am I in charge of phone support? Seems a bit racist.
+Sheldon: A customer service representative with an Indian accent will create the impression we’re a vast enterprise that uses overseas call centres.
+Raj: Oh. Very clever. But still racist.
+Sheldon: Duly noted, Steve from Wichita.
+Howard: Why am I listed as your executive assistant?
+Sheldon: Because the word secretary has fallen into disrepute. FYI, my mother’s birthday is coming up. I’m going to need you to pick up a present.
+Leonard: Okay, we need to stop for a minute.
+Sheldon: Leonard, please, we can talk during our break. We have one coming up at midnight. We’ll need snacks.
+Leonard: Sheldon, you’re not in charge. It’s my idea. I’m in charge.
+Sheldon: Oh, of course you are. Look at the organizational chart. You’re clearly listed as founder.
+Leonard: Well, yes, and you’re listed as Chief Executive Officer, Chief Financial Officer and Chief Operating Officer.
+Sheldon: You missed Chief Science Officer, Chairman of the Board, and Head of the Secret Santa Committee.
+Leonard: Okay. You need to get clear on this right now. I am in charge of this project.
+Raj: Ooh. Leonard’s going all alpha nerd on Sheldon’s ass.
+Sheldon: All right. All right, I’m not going to argue with you. Sheldon Cooper is nothing if not a team player. Dr. Hofstadter, you have the conn.
+Leonard: Thank you. I thought we might start by talking about the user interface.
+Sheldon: Oh, dear Lord, we’re doomed.
+Scene: Later. 
+Leonard: So this button here will allow you to scan a new equation, but over here, you can press this, and just substitute new values for the coefficients.
+Sheldon: Good one, boss.
+Leonard: What?
+Sheldon: This diagram. I assume you were opening with a joke. It certainly buoyed up this employee’s esprit de corps.
+Leonard: It’s not a joke. It’s the real design.
+Sheldon: In that case, may I offer 27 little tweaks to make it slightly less embarrassing?
+Leonard: Sheldon, I think this will work. Let’s just try it my way.
+Sheldon: Oh, I’m, I’m sorry. I assumed that you wanted candid truth-telling from your employees, but I realize now, you want the mindless nattering of complacent yes-men.
+Leonard: Are you done?
+Sheldon: If you say so, boss.
+Scene: Later still.
+Howard: So right now, this button-press event is just triggering a dummy procedure call…
+Sheldon: How about this for the app name? The Surprisingly Helpful Equation-Linked Differential Optimized Numerator.
+Raj: So it spells Sheldon?
+Sheldon: Does it? A happy accident.
+Leonard: We’re not doing names now. Howard?
+Howard: Like I was saying, right now it’s just a dummy procedure, but eventually, it will drop us into…
+Sheldon: All right, fine. If we’re not going to give it a name, can we at least give it a secret code designation?
+Leonard: No.
+Sheldon: Well, but hear me out. The atomic bomb was The Manhattan Project. Windows 95 was originally Project Chicago. For our app, I would humbly suggest Project Nodlehs.
+Leonard: That’s just Sheldon backwards.
+Sheldon: Another happy accident.
+Leonard: We’re not wasting time with names right now.
+Sheldon: I see. Is that decision open for discussion?
+Leonard: No.
+Sheldon: Is the decision to not discuss it open for discussion?
+Leonard: No.
+Howard: Again, right now it’s just a dummy procedure, but eventually, it will drop us into…
+Sheldon: I call for a vote of no confidence and an immediate change in leadership.
+Leonard: Oh Sheldon, stop it.
+Sheldon: When in the course of human events, it becomes necessary to dissolve the bonds that tie three competent scientists together…
+Leonard: That’s enough, Sheldon.
+Sheldon: All right, let’s get right to the vote. Show of hands all those opposed to Leonard and his reign of tyranny.
+Leonard: Okay, that’s it, you’re fired.
+Sheldon: Really? Why?
+Leonard: Because you’re impossible to work with.
+Sheldon: I see. And is that open for discussion?
+Scene: The following morning.
+ 
+Leonard: What are you doing?
+Sheldon: Oh. Good morning, shoemaker. I think you’ll be pleased with what the elves were up to last night.
+Leonard: But I fired you.
+Sheldon: Oh, I know. I’m now an independent contractor.
+Leonard: No, you are now nothing. You have no connection to this project whatsoever.
+Sheldon: But I made it better.
+Leonard: I don’t want it better. I want it my way.
+Sheldon: Well, that speaks volumes, doesn’t it? All right, I suppose I’ll go put on my bus pants.
+Leonard: What the hell are bus pants?
+Sheldon: They are pants one wears over one’s regular pants when one sits on bus seats that other people have previously sat on. But perhaps from your lofty heights atop the corporate ladder, you’ve lost touch with the struggles of the common man.
+Leonard: Look, I’m still happy to drive you to work. Nothing’s changed in that regard. We’re still roommates, we’re still friends.
+Sheldon: Except you identified me, your best friend, as a gangrenous limb that needed to be severed from the organism and tossed away. The desperate act of a little man with a big Napoleon complex.
+Leonard: You know what? Go put on your bus pants.
+Scene: The cafeteria.
+Raj: Mm. Last night, I had a dream we got so rich from the app, you and I bought matching side-by-side mansions. But there was a secret tunnel connecting your front yard to my back yard. What do you think that means?
+Howard: It means after we play handball, I’m showering at home.
+Sheldon: Good morning, Friend Howard. Friend Raj. I see you gentlemen are enjoying beverages. Perhaps they would taste better out of these.
+Raj: World’s Greatest Astrophysicist?
+Sheldon: Don’t thank me. You earned it.
+Howard: Howard Wolowitz. Why not World’s Greatest Engineer?
+Sheldon: I’m sorry. I typed that into the label maker, but I just couldn’t press enter. Now down to business. What would it take for you to abandon Leonard and join me in a rival company? Unless, of course, the mugs are sufficient, in which case, welcome aboard.
+Howard: We’re not quitting on Leonard.
+Sheldon: I understand. And your loyalty is admirable. But what if I were to up the ante?
+Raj: What are you talking about?
+Sheldon: Monogrammed key chains with a built-in laser pointer. No? How about can cosies emblazoned with our university mascot? Go, Beavers. I’ll be back.
+Scene: The apartment. 
+Howard: Okay, let’s try this one. Spherical Hankel function.
+Leonard: Hold on. That’s it!
+Howard: Eureka!
+Raj: Hey, we agreed when it was Eureka time, we were all gonna say it together.
+Howard: Fine. Let’s say it together.
+Raj: No. The moment has passed.
+Sheldon: Greetings, gentlemen. How goes your little project?
+Raj: You mean, Project Lenwoloppali?
+Sheldon: Ah, a combination of all your names. Very clever. I assume Koothranardowitz was taken?
+Leonard: We’re actually scanning equations and getting good results.
+Sheldon: Oh, well then, by all means, carry on. I wouldn’t want to impede your progress.
+Leonard: Howard, did you solve the install time problem yet?
+Howard: No. It’s a little tricky. I’m gonna try having it pick up the libraries dynam…
+Leonard: What are you doing?!
+Sheldon: Playing the theremin.
+Leonard: No. I mean, what are you doing with a theremin?
+Sheldon: Playing it. I’ve loved the theremin from the first moment I heard the original Star Trek theme. And it’s been killing me that it just sits in my closet, gathering dust.
+Leonard: Sheldon! We’re working here!
+Sheldon: That’s all right. I can barely hear you over my theremin. (Leonard pulls out plug) Well, that was a little uncalled for.
+Leonard: No, that was completely called for. We need quiet.
+Sheldon: So, your project is more important than mine?
+Leonard: Well, seeing as your project is to sabotage my project, yes.
+Sheldon: Don’t beat around the bush, Leonard. If you don’t want me here, just say the word, and I’ll leave.
+Scene: The hallway.
+Sheldon: Could have beaten around the bush a little.
+Scene: The lobby. Sheldon is playing his theramin.
+Sheldon (singing): Nobody knows the trouble I’ve seen, nobody knows my sorrow-ow-ow-ow.
+Penny: What you doing? Trying to contact your home planet?
+Sheldon: I’m practicing my theremin.
+Penny: Oh.
+Sheldon (singing): Nobody knows the trouble I’ve seen. Glory, hallelujah.
+Penny: Something got you down, there, Sheldon?
+Sheldon: Leonard kicked me out of my own apartment. And his app team.
+Penny: Oh, honey, I’m sorry.
+Sheldon: He wouldn’t drive me to work today. I had to wear my bus pants.
+Penny: Is that so?
+Sheldon: Yes. And they’re still sticky.
+Penny: Aw.
+Sheldon: Probably going to have to throw them away.
+Penny: Hey, you don’t need Leonard and his app. You can make one with me.
+Sheldon: With you?
+Penny: Seriously, I have a great idea for one.
+Sheldon: Is it better than your idea to move to Los Angeles and become a famous actress?
+Penny: Okay, look, when you see someone wearing shoes you like, you just snap a picture of them, and the app goes on the Internet to find out where you can buy them.
+Sheldon: That’s your app idea?
+Penny: Well, you don’t like it?
+Sheldon: I didn’t say that. But no, I don’t.
+Penny: Why not?
+Sheldon: Oh, Penny, where do I begin? The simple-mindedness of your idea is exceeded only by its crass consumerism and banality.
+Penny: And Leonard didn’t want to work with you? Imagine that.
+Sheldon: I know, it’s baffling. (Singing) Nobody knows the trouble I’ve seen.
+Penny: Sheldon, I’m gonna make some cocoa. Do you want some?
+Sheldon: Do you make it with milk or water?
+Penny: Milk.
+Sheldon: Real cocoa?
+Penny: That’s what it says on the packet.
+Sheldon: Do you have those little marshmallows?
+Penny: No, sorry.
+Sheldon: Well, I suppose it’s appropriate.
+Penny: What does that mean?
+Sheldon: A disappointing drink for a disappointing day.
+Scene: The apartment. 
+Raj: Hey, look at this. 20 people from the university have already signed up for our private beta.
+Leonard: I’m telling you, the Lenwoloppali Differential Equation Scanner meets a real need. We’ve got a hit.
+Raj: What do you think we should sell it for?
+Howard: Well, based on the fact that our potential market is about 70 or 80 guys, and you want a submarine, I’d say about a million dollars a pop.
+Raj: Well, what if we put out a lite version for half a million? You know, get the word of mouth going.
+Penny: Hi. I’m sorry to bother you guys, but you’ve got to come take your Sheldon back.
+Leonard: What’s he doing in your apartment?
+Penny: Well, he was moping down in the lobby, so I invited him over, and now I regret it.
+Leonard: Why do you regret, uh, never mind, stupid question.
+Penny: Look, can’t you just let him play with you until bedtime?
+Leonard: We’re not playing. This is real work.
+Howard: We’re going to be hundred-aires.
+Penny: Okay. What if I got him to apologize and promise to behave?
+Leonard: Then I guess we would let him back on the app team, and while we’re doing that, you could take an aerial tour of L.A. on your flying pig.
+Penny: Okay. Wait right here.
+Raj: I’ll tell you one thing. If I get rich enough, that’s the kind of girl I want to take on a submarine ride. And yes, that time, I meant it to be dirty.
+Scene: Penny’s apartment.
+ 
+Sheldon: Really? Leonard wants me back?
+Penny: Oh, yes. He says they are lost without you.
+Sheldon: Well, we sure saw that coming.
+Penny: That’s right.
+Sheldon: You know what I’m going to do? I am going to sit here and just let them stew.
+Penny: No, no, no. You know, they have suffered enough. Everybody’s suffered enough. The thing is, you’re going to have to offer him a face-saving way out of this.
+Sheldon: How?
+Penny: Say you’re sorry.
+Sheldon: Oh, no. Mrs. Mary Cooper didn’t raise her no liars.
+Penny: Okay. Um, how about this? You know how you’re always trying to learn about sarcasm?
+Sheldon: No.
+Penny: No?
+Sheldon: I was being sarcastic.
+Penny: Oh. Good for you. So all you have to do here is say you’re sorry to Leonard, but say it sarcastically.
+Sheldon: Of course. He will hear it as an attempt to mend fences, as opposed to the withering condemnation you and I will know it to be.
+Penny: Yeah. Yeah, that was my plan. All right. Come on. Let’s go.
+Sheldon: Oh, by the way, thank you for the delicious cocoa.
+Penny: Oh, you’re welcome.
+Sheldon: Boy, I’m getting good at this.
+Scene: The apartment. 
+Leonard: Okay, now that you’re back on the team, let’s get you caught up.
+Sheldon: Before you begin, let me say again how deeply sorry I am for my earlier behaviour and how much I respect and admire your leadership.
+Leonard: Thank you. So as you can see, not only can you store your favourite equations, but you can forward them to your friends or post them on Facebook right from the app.
+Sheldon: Well, I must say, I am impressed.
+Leonard: Thanks.
+Sheldon: You all have clearly put in a lot of hard work.
+Howard: We have.
+Sheldon: As a result, you have taken the most important step on the road to success, learning what not to do. Now, let’s start fresh. Howard, we’re going to need some tea.
+Scene: Penny’s apartment. 
+Penny: Okay, these are Uggs. These are Crocs. These are knockoff Manolo Blahniks.
+Sheldon: Bored.
+Penny: Look, you said it yourself, we have to create a database before you can write an alga-thingy.
+Sheldon: Algorithm. You see, Penny, Alan Turing defined an algorithm…
+Penny: Bored. Okay. These are Steve Maddens. These are Nine West. These are Target. Oh, but don’t they look like Chanel? These are Michael Kors. These are Roxy. These are Sachel’s. Oh, these are Betsy Johnson, they’re so cute…
+Sheldon (singing at the same time): Nobody knows the trouble I’ve seen, nobody knows my sorrow…
+Like this:Like Loading...								
+			
