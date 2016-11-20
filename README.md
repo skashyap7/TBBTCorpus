@@ -2,7 +2,7 @@
 The Big Bang Theory Transcript Corpus
 
 # Downloading Corpus
--------------------
+
 We used fan-sourced transcripts for The Big Bang Theory as data set for our experiment. The Blog site had transcripts for the 9 season ( 220 scenes ) of The Big Bang Theory, categorized by season and episode. One of the first task was to extract transcripts from these webpages.
 
 ### Scripts
@@ -27,7 +27,6 @@ The previous step of util.py creates a corpus.json which is JSON representation 
 /episode categorized transcript
 
 # Processing Corpus
--------------------
 
 A single episode transcript is of the form
 
