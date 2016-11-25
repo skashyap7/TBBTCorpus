@@ -2,6 +2,7 @@ import json
 import re
 import operator
 import collections
+import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 from nltk.tokenize import RegexpTokenizer
@@ -12,7 +13,9 @@ class turn:
         self.speaker = speaker
         self.addresse = []
         self.topic = None
-        self.words = words
+        self.words = []
+        for token,pos  in nltk.pos_tag(words):
+            self.words.append((token,pos))
         self.speaker_attribute = None
 
     def addAddresse(self, p_list):
@@ -40,7 +43,6 @@ class getEpisodeTranscripts:
         self.Info = []
         self.allTranscripts = {}
         self.vocabulary = collections.defaultdict(int)
-        #self.Stopwords = [".","?","\\",";",",","\u2019",")"]
         self.Stopwords = set(stopwords.words('english'))
         self.impactActors = ["Leonard","Sheldon","Penny", "Howard","Raj","Amy","Bernadette"]
 
@@ -67,7 +69,7 @@ class getEpisodeTranscripts:
                         speaker = speaker.split("(")[0].strip() 
                     tokenizer = RegexpTokenizer(r'\w+')
                     words = tokenizer.tokenize(dialogue.lower())
-                    words, stemmed_words = self.addtoVocab(words)
+                    words = self.addtoVocab(words)
                     if speaker not in self.impactActors:
                         speaker = "Others"
                     conv = turn(speaker,words)
@@ -83,14 +85,11 @@ class getEpisodeTranscripts:
             self.Info.append(sc)
 
     def addtoVocab(self, words):
-        cleanedWords = []
-        stemmer = PorterStemmer()
+        #stemmer = PorterStemmer()
         w_list = self.removeStopWords(words)
         for word in w_list:
-            stemmed_word = stemmer.stem(word)
-            cleanedWords.append(stemmed_word)
-            self.vocabulary[stemmed_word] += 1
-        return w_list,cleanedWords
+            self.vocabulary[word] += 1
+        return w_list
 
     def removeStopWords(self, words):
         return [word for word in words if word not in self.Stopwords]

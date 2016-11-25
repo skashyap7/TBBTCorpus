@@ -27,4 +27,4 @@ def __dictToDialogUtterance(dialog):
 	return DialogUtterance(**dialog)
 
 # Loading data at the start
-corpus = loadCorpus("D:\\NLP-544\\Speaker-Prediction\\data\\final.json")
+corpus = loadCorpus("preprocessing/final.json")
