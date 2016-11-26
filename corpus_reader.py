@@ -3,19 +3,18 @@
 import json
 from collections import namedtuple
 
-
 corpus = {}
-
-DialogUtterance = namedtuple("DialogUtterance",("Speaker","Words","Recipients"))
+DialogUtterance = namedtuple("DialogUtterance",("Speaker","Words","Recipients","Scene","Topics","Act_Tag"))
 
 def loadCorpus(loadfile):
-	corpus = {}
+	global corpus
 	with open(loadfile,"r") as corpus_file:
 		corpus = json.load(corpus_file)
 		corpus_file.close()
 	return corpus
 	
 def getNextTurn(season,episode):
+	global corpus
 	key = str(season)+"_"+str(episode)
 	info = corpus[key]
 	turns = []
@@ -26,5 +25,4 @@ def getNextTurn(season,episode):
 def __dictToDialogUtterance(dialog):
 	return DialogUtterance(**dialog)
 
-# Loading data at the start
-corpus = loadCorpus("preprocessing/final.json")
+
