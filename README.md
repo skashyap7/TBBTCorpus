@@ -75,7 +75,7 @@ classification labels. We included an extra label for all other characters clubb
 our case ["Leonard","Sheldon","Penny", "Howard","Others"]
 
 
->
+
     | Character     | Dialogues   |
     |---------------|-------------|
     |Sheldon        |    164415   |
