@@ -77,7 +77,7 @@ our case ["Leonard","Sheldon","Penny", "Howard","Others"]
 
 >
     | Character     | Dialogues   |
-    |---------------|------------:|
+    |---------------|-------------|
     |Sheldon        |    164415   |
     |Leonard        |     94143   |
     |Penny          |     73147   |
