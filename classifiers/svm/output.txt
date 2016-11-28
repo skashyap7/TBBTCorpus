@@ -1,0 +1,8 @@
+
+ Speaker	Precision	Recall		F1
+Leonard		18.17		96.30		30.58
+Sheldon		43.75		12.67		19.65
+Penny		42.27		9.83		15.95
+Howard		16.85		3.64		5.99
+Raj		13.11		2.56		4.29
+Others		97.56		9.93		18.02
