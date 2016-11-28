@@ -75,9 +75,9 @@ classification labels. We included an extra label for all other characters clubb
 our case ["Leonard","Sheldon","Penny", "Howard","Others"]
 
 
->
+
     | Character     | Dialogues   |
-    |---------------|------------:|
+    |---------------|-------------|
     |Sheldon        |    164415   |
     |Leonard        |     94143   |
     |Penny          |     73147   |
@@ -94,7 +94,10 @@ For each scene we capture
 For each turn (Turn Object) we capture
 * Speaker
 * Recipients
-* List of words in the turn (utterance)
+* List of words(after removing stop words) in the turn (utterance)
+* POS tag for each word 
+* Topic associated with the turn (Topic extracted using LDA model)
+* ACT Tag 
 
 We save list of scenes per episode in a JSON format, where each
 episode in a season has a key of season_episode. Additionally, it also
