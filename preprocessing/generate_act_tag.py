@@ -1,6 +1,7 @@
 import nltk
 from collections import defaultdict
 """
+
  Class generates act_tag based on the existing corpus in nltk
  There are total of 15 act tags which can be assigned to any sentence
 """

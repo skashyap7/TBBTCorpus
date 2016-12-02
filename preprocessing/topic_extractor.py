@@ -4,6 +4,8 @@ from nltk.stem.porter       import PorterStemmer
 from gensim.models.ldamodel import LdaModel
 from gensim                 import corpora, models
 
+# LDA topic extractor
+
 class LDA:
 	def __init__(self):
 		print("Initializing topic extractor")
