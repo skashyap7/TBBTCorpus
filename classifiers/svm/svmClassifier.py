@@ -6,17 +6,19 @@ import scipy
 import sklearn
 from sklearn import svm
 from sklearn.svm import SVC
+from sklearn.feature_extraction.text import TfidfVectorizer
+
 
 Season_Episode_Mapping = {
-    1: 17,
-    2: 7,
-    3: 23,
-    4: 23,
-    5: 23,
-    6: 22,
-    7: 24,
-    8: 24,
-    9: 24
+    1: 9,
+    2: 9,
+    3: 9,
+    4: 9,
+    5: 7,
+    6: 9,
+    7: 9,
+    8: 9,
+    9: 9
 }
 
 speaker_enum = {
@@ -141,6 +143,11 @@ def turn2feature(turn, bos):
     return feature,speaker_enum[turn.Speaker]
 
 
+def bagofWords(turn):
+    label = turn.Speaker
+    feature = [x[0].strip() for x in turn.Words]
+    return feature,label
+
 def episode2feature(season,episode):
     EpisodeFeature = []
     Label = []
@@ -172,6 +179,7 @@ def get_stats(result,train_labels,class_num):
         if train_labels[i] == class_num:
             total_labels += 1
 
+    
     total_classified = correct_classified + wrong_classified
     precision = (correct_classified/total_classified)
     recall = (correct_classified/total_labels)
@@ -179,34 +187,41 @@ def get_stats(result,train_labels,class_num):
         f1_score = 0
     else:
         f1_score = (2*precision*recall)/(precision+recall)
-    return precision*100 ,recall*100, f1_score*100
+    return precision*100 ,recall*100, f1_score*100,correct_classified,total_classified
 
 def start_program():
-    clf = svm.SVC(gamma=0.001, C=100.)
-    all_features = []
-    all_labels = []
+    Total_correct = 0
+    Total_labelled = 0
+    clf = svm.SVC(gamma=0.001, C=50, kernel='rbf')
     train_features = []
     train_labels = []
+    test_features = []
+    test_labels = []
     for season in range(1,5):
         for episode in range(1,Season_Episode_Mapping[season]-4):
             features, labels = episode2feature(season,episode)
-            all_features.extend(features)
-            all_labels.extend(labels)
+            train_features.extend(features)
+            train_labels.extend(labels)
     #print(all_features)
     for season in range(5,8):
         for episode in range(Season_Episode_Mapping[season]-4,Season_Episode_Mapping[season]+1):
             features, labels = episode2feature(season,episode)
-            train_features.extend(features)
-            train_labels.extend(labels)
+            test_features.extend(features)
+            test_labels.extend(labels)
+    #print(train_features)
+    clf.fit(train_features,train_labels)
+    result = clf.predict(test_features)
 
-    clf.fit(all_features,all_labels)
-    result = clf.predict(train_features)
+
     txt = "\n Speaker\tPrecision\tRecall\t\tF1\n"
     for i in range(1,7):
-        precision, recall,f1_score = get_stats(result, train_labels,i)
+        precision, recall,f1_score,correct,total = get_stats(result, train_labels,i)
+        Total_correct += correct
+        Total_labelled += total
         txt += speaker_rev_enum[i]+"\t\t"+ str(format(precision,'.2f'))+"\t\t"+str(format(recall,'.2f'))+"\t\t"+str(format(f1_score,'.2f'))+"\n"
     with open("output.txt","w") as fh:
         fh.write(txt)
+    print("Accuracy of the system is : "+str(Total_correct/Total_labelled))
 
 
 start_program()

@@ -58,6 +58,8 @@ class svmClassifier:
         self.classification = self.svm_classifier.predict(test_vector)
 
     def get_stats(self, filename):
+        total_correct = 0
+        total = 0
         counter = {"Sheldon":{"correct": 0, "acutal": 0, "predicted": 0}, "Howard": {"correct": 0, "acutal": 0, "predicted": 0}, "Penny": {"correct": 0, "acutal": 0, "predicted": 0},\
          "Leonard":{"correct": 0, "acutal": 0, "predicted": 0},\
          "Raj":{"correct": 0, "acutal": 0, "predicted": 0},"Others":{"correct": 0, "acutal": 0, "predicted": 0}} 
@@ -65,9 +67,11 @@ class svmClassifier:
         try:
             for act, pre in zip(self.test_labels, self.classification):
                 if act == pre:
+                    total_correct += 1
                     counter[pre]["correct"] += 1
                 counter[act]["acutal"] += 1
                 counter[pre]["predicted"] += 1
+                total += 1
 
             for speaker in counter:
                 if counter[speaker]["predicted"]:
@@ -90,6 +94,7 @@ class svmClassifier:
             json.dump(counter,fh)
         with open("results\\"+filename,"w") as fh:
             fh.write(txt)
+        print("Accuracy of the system is :"+str(total_correct/total))
 
 if sys.argv[1]:
     output_filename = sys.argv[1]
